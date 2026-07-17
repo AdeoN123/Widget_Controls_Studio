@@ -1,0 +1,72 @@
+@theme {
+  --color-ink: var(--color-bg-app);
+  --color-panel: var(--color-bg-panel);
+  --color-panel-elevated: var(--color-bg-panel-elevated);
+  --color-input: var(--color-bg-input);
+  --color-hairline: var(--color-border-subtle);
+  --color-hairline-strong: var(--color-border);
+  --color-accent: #8778f5;
+  --color-accent-hover: #7566e0;
+  --color-signal: #d9a158;
+  --color-success: #6fcf97;
+  --color-warning: #d9a158;
+  --color-danger: #e5484d;
+  --color-info: #7c9cf5;
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-sans: 'IBM Plex Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'IBM Plex Mono', 'JetBrains Mono', ui-monospace, monospace;
+  --radius-sm: 3px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+}
+
+:root,
+[data-theme='dark'] {
+  --color-bg-app: #131118;
+  --color-bg-panel: #1a1822;
+  --color-bg-panel-elevated: #211e2b;
+  --color-bg-input: #0f0d14;
+  --color-border: #2c2838;
+  --color-border-subtle: #221f2c;
+  --color-text: #ede9f5;
+  --color-text-muted: #9691a8;
+  --color-text-dim: #635d75;
+  --color-accent: #8778f5;
+  --color-accent-hover: #7566e0;
+  --color-accent-soft: rgba(135, 120, 245, 0.15);
+  --color-signal: #d9a158;
+  --color-signal-soft: rgba(217, 161, 88, 0.15);
+  --color-success: #6fcf97;
+  --color-warning: #d9a158;
+  --color-error: #e5484d;
+  --color-info: #7c9cf5;
+  --radius-sm: 3px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+  --font-sans: 'IBM Plex Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'IBM Plex Mono', 'JetBrains Mono', ui-monospace, monospace;
+  --header-height: 52px;
+  --sidebar-width: 240px;
+  --inspector-width: 320px;
+  --toolbar-gap: 8px;
+  --panel-padding: 12px;
+  --transition-fast: 150ms ease;
+}
+
+[data-theme='light'] {
+  --color-bg-app: #f3f0ea;
+  --color-bg-panel: #fdfcfa;
+  --color-bg-panel-elevated: #ece7dd;
+  --color-bg-input: #ffffff;
+  --color-border: #ddd6c7;
+  --color-border-subtle: #e8e2d5;
+  --color-text: #211e2b;
+  --color-text-muted: #635d75;
+  --color-text-dim: #9691a8;
+  --color-accent: #7566e0;
+  --color-accent-hover: #6455c9;
+  --color-accent-soft: rgba(117, 102, 224, 0.1);
+  --color-signal: #b5813f;
+  --color-signal-soft: rgba(181, 129, 63, 0.12);
+}
